@@ -26,7 +26,7 @@ let package = Package(
             name: "segment-appsflyer-ios",
             dependencies: [
                 "Segment",
-                .product(name: "AppsFlyerLib", package: "AppsFlyerLib"),
+                "AppsFlyerLib"
                 ],
             path: "segment-appsflyer-ios/Classes",
             publicHeadersPath: ""
